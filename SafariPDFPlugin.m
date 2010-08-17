@@ -47,7 +47,7 @@
 
 + (NSData *) capturePdfData
 {
-	id webView = [[[[NSApplication sharedApplication] orderedDocuments] objectAtIndex:0] currentWebView];
+	id webView = [[[[NSApplication sharedApplication] orderedDocuments] objectAtIndex:0] currentBrowserOrOverlayWebView];
 	id docView = [[[webView mainFrame] frameView] documentView];
 	[docView lockFocus];
 	

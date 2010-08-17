@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		170BD1291119966D004DE2EE /* SafariPDFPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 170BD1281119966D004DE2EE /* SafariPDFPlugin.m */; };
-		170BD22F1119BF5E004DE2EE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170BD17C1119BF2F004DE2EE /* WebKit.framework */; };
-		170BD2531119C2B8004DE2EE /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170BD2521119C2B8004DE2EE /* FScript.framework */; };
+		177DD04011F7D4A600C00A11 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 177DD03F11F7D4A600C00A11 /* WebKit.framework */; };
+		179F7EC411F7D1270062ECB6 /* SafariPDFPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 179F7EC311F7D1270062ECB6 /* SafariPDFPlugin.m */; };
+		179F7ECC11F7D24C0062ECB6 /* FScript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179F7ECB11F7D24C0062ECB6 /* FScript.framework */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -19,10 +19,10 @@
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
-		170BD1271119966D004DE2EE /* SafariPDFPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafariPDFPlugin.h; sourceTree = "<group>"; };
-		170BD1281119966D004DE2EE /* SafariPDFPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafariPDFPlugin.m; sourceTree = "<group>"; };
-		170BD17C1119BF2F004DE2EE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		170BD2521119C2B8004DE2EE /* FScript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FScript.framework; path = Library/Frameworks/FScript.framework; sourceTree = SDKROOT; };
+		177DD03F11F7D4A600C00A11 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		179F7EC211F7D1270062ECB6 /* SafariPDFPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafariPDFPlugin.h; sourceTree = "<group>"; };
+		179F7EC311F7D1270062ECB6 /* SafariPDFPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafariPDFPlugin.m; sourceTree = "<group>"; };
+		179F7ECB11F7D24C0062ECB6 /* FScript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FScript.framework; path = Library/Frameworks/FScript.framework; sourceTree = SDKROOT; };
 		32DBCF630370AF2F00C91783 /* SafariPDF_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafariPDF_Prefix.pch; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* SafariPDF.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafariPDF.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -35,8 +35,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
-				170BD22F1119BF5E004DE2EE /* WebKit.framework in Frameworks */,
-				170BD2531119C2B8004DE2EE /* FScript.framework in Frameworks */,
+				179F7ECC11F7D24C0062ECB6 /* FScript.framework in Frameworks */,
+				177DD04011F7D4A600C00A11 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +76,8 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				170BD1271119966D004DE2EE /* SafariPDFPlugin.h */,
-				170BD1281119966D004DE2EE /* SafariPDFPlugin.m */,
+				179F7EC211F7D1270062ECB6 /* SafariPDFPlugin.h */,
+				179F7EC311F7D1270062ECB6 /* SafariPDFPlugin.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				170BD17C1119BF2F004DE2EE /* WebKit.framework */,
+				177DD03F11F7D4A600C00A11 /* WebKit.framework */,
+				179F7ECB11F7D24C0062ECB6 /* FScript.framework */,
 				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
-				170BD2521119C2B8004DE2EE /* FScript.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "SafariPDF" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
 			mainGroup = 089C166AFE841209C02AAC07 /* SafariPDF */;
 			projectDirPath = "";
@@ -172,7 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				170BD1291119966D004DE2EE /* SafariPDFPlugin.m in Sources */,
+				179F7EC411F7D1270062ECB6 /* SafariPDFPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +195,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SafariPDF_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
@@ -208,6 +212,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SafariPDF_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
@@ -220,12 +226,13 @@
 		1DEB913F08733D840010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_C_LANGUAGE_STANDARD = c99;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = com.flyingmeat.compilers.llvm.tot;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
 				SDKROOT = macosx10.6;
 			};
 			name = Debug;
@@ -233,15 +240,13 @@
 		1DEB914008733D840010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = (
-					i386,
-					x86_64,
-				);
-				GCC_C_LANGUAGE_STANDARD = c99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.flyingmeat.compilers.llvm.tot;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LLVM_LTO = YES;
+				PREBINDING = NO;
 				SDKROOT = macosx10.6;
 			};
 			name = Release;
