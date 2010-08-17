@@ -1,0 +1,22 @@
+webView := (NSApplication sharedApplication orderedDocuments objectAtIndex:0) currentWebView.
+docView := webView mainFrame frameView documentView.
+docView lockFocus.
+
+oldPref := webView preferences.
+oldPref retain.
+newPref := WebPreferences alloc initWithIdentifier:'snapshot'.
+newPref setShouldPrintBackgrounds:YES.
+webView setPreferences:newPref.
+
+cssMedia := webView mediaStyle.
+webView setMediaStyle:'screen'.
+
+data := docView dataWithPDFInsideRect:(docView bounds).
+
+webView setMediaStyle:cssMedia.
+webView setPreferences:oldPref.
+newPref release.
+oldPref release.
+
+docView unlockFocus.
+data writeToFile:'/Users/florian/test.pdf' atomically:YES
