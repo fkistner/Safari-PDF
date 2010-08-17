@@ -1,0 +1,6 @@
+[
+    |window view|
+    window := NSApplication sharedApplication orderedWindows objectAtIndex:1.
+    view := window firstResponder.
+    (view dataWithPDFInsideRect:(view bounds)) writeToFile:('/Users/florian/' ++ (window title) ++ '.pdf') atomically:YES
+] value
