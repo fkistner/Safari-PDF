@@ -3,7 +3,7 @@
 //  SafariPDF
 //
 //  Created by Florian Kistner on 03.02.10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Florian Kistner. All rights reserved.
 //
 
 #import "SafariPDFPlugin.h"
