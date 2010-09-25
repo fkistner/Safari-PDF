@@ -1,0 +1,7 @@
+Safari-PDF SIMBL-Plugin
+
+README
+	Safari-PDF is a SIMBL-Plugin which enables the user to create PDF snapshots of the entire page currently open in Safari. The PDFs are in theory identical to the rendering of the website on the screen while retaining full searchability and vector-graphics elements of the page. 
+
+COPYING
+	Safari-PDF is availabe under the MIT license, see COPYING for details.
